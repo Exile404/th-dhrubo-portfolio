@@ -13,7 +13,7 @@ export default function Experience({
     icon,
     date,
 }: ExperienceProps) {
-    const { ref, inView } = useInView({ threshold: 0 });
+    const { ref, inView } = useInView({ threshold: 0.1 });
     const { theme } = useTheme();
   return (
     <div ref={ref} className="vertical-timeline-element">
