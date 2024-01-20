@@ -141,7 +141,7 @@ export const skillsData = [
   "Tailwind CSS",
   "Selenium",
   "FastAPI",
-  "ReacJS",
+  "ReactJS",
   "React Native",
   "Django",
   "NextJS",
