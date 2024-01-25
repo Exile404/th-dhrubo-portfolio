@@ -34,7 +34,7 @@ export default function Experience({
         }}
         visible={inView}
         date={date}
-        icon={icon}
+        icon={<React.Fragment>{icon}</React.Fragment>}
         iconStyle={{
           background:
             theme === "light" ? "white" : "rgba(255, 255, 255, 0.15)",
