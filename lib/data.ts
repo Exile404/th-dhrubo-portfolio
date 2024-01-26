@@ -75,7 +75,7 @@ export const projectsData = [
     title: "Pharmaceutical Supply Chain",
     description:
       "A Dapp to track the medicine supply chain to avoid the mismanagement and keep the orginality",
-    tags: ["NextJS", "Solidity", "MetaMask", "Etherium", "Blockchain"],
+    tags: ["NextJS", "Solidity", "MetaMask", "Ethereum", "Blockchain"],
     imageUrl: dapp,
     github_url: 'https://github.com/Exile404/pharma-supply-chain-dapp',
   },
