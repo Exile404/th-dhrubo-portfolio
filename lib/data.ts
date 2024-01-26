@@ -13,6 +13,7 @@ import routine from "@/public/routine.png";
 import usis from "@/public/usis.png";
 import ez from "@/public/ez.png";
 import mt from "@/public/bracu_mongol_tori.jpg";
+import dapp from "@/public/dapp.png"
 
 export const links = [
   {
@@ -70,6 +71,14 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Pharmaceutical Supply Chain",
+    description:
+      "A Dapp to track the medicine supply chain to avoid the mismanagement and keep the orginality",
+    tags: ["NextJS", "Solidity", "MetaMask", "Etherium", "Blockchain"],
+    imageUrl: dapp,
+    github_url: 'https://github.com/Exile404/pharma-supply-chain-dapp',
+  },
   {
     title: "Chakri Khujo - Job Posting Website",
     description:
@@ -150,6 +159,8 @@ export const skillsData = [
   "MongoDB",
   "PostgreSQL",
   "MySQL",
-  "Git"
+  "Git",
+  "Solidity",
+  "Blockchain"
 
 ] as const;
