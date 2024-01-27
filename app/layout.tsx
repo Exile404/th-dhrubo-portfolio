@@ -3,11 +3,6 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import ActiveSectionContextProvider from "@/context/active-section-context";
 import Footer from "@/components/footer";
-<<<<<<< HEAD
-
-=======
-// import ThemeSwitch from "@/components/theme-switch";
->>>>>>> 504c01fe3e963eff96482db455150d448b53a8e1
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
 
