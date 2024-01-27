@@ -3,16 +3,16 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import ActiveSectionContextProvider from "@/context/active-section-context";
 import Footer from "@/components/footer";
-import ThemeSwitch from "@/components/theme-switch";
+// import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: 'TH Dhrubo | Personal Portfolio',
-  description: 'Backend Developer',
-}
+  title: "TH Dhrubo | Personal Portfolio",
+  description: "Backend Developer",
+};
 
 export default function RootLayout({
   children,
