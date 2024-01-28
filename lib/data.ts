@@ -61,7 +61,7 @@ export const experiencesData = [
   },
   {
     title: "Co -Lead of BRACU STEMXPERT",
-    location: "Orlando, FL",
+    location: "Dhaka, Bangladesh",
     description:
       "STEMX365 is a USA based non-profit 501(c)(3) organization, affiliated with MIT Zero Robotics, for teaching International Space Station (ISS) based STEM(Science, Technology, Engineering, Math) education in under-served communities. STEMX365 was founded in 2019 as a non-profit organization by scientists from MIT, Harvard and Columbia university",
     icon: React.createElement(SiSpacemacs),
