@@ -31,6 +31,7 @@ export default function ActiveSectionContextProvider({
         timeOfLastClick,
         setTimeOfLastClick,
       }}
+      
     >
       {children}
     </ActiveSectionContext.Provider>
