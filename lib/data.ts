@@ -1,5 +1,5 @@
 import React from "react";
-import { SiSpacemacs } from "react-icons/si";
+
 import { CiMedicalCross } from "react-icons/ci";
 import { FaRobot } from "react-icons/fa";
 // import corpcommentImg from "@/public/corpcomment.png";
@@ -58,14 +58,6 @@ export const experiencesData = [
       "BracU Response Team is dedicated to the aid of students in crisis including any but not limited to epidemics, pandemics, or in general social welfare of the BracU community.",
     icon: React.createElement(CiMedicalCross),
     date: "2020 - 2022",
-  },
-  {
-    title: "Co -Lead of BRACU STEMXPERT",
-    location: "Dhaka, Bangladesh",
-    description:
-      "STEMX365 is a USA based non-profit 501(c)(3) organization, affiliated with MIT Zero Robotics, for teaching International Space Station (ISS) based STEM(Science, Technology, Engineering, Math) education in under-served communities. STEMX365 was founded in 2019 as a non-profit organization by scientists from MIT, Harvard and Columbia university",
-    icon: React.createElement(SiSpacemacs),
-    date: "2022 - Present",
   },
   
 ] as const;
@@ -144,7 +136,6 @@ export const skillsData = [
   "Flask",
   "JavaScript",
   "NodeJS",
-  "Java",
   "HTML",
   "CSS",
   "Tailwind CSS",
