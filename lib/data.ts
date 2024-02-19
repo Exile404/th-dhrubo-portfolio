@@ -13,7 +13,8 @@ import routine from "@/public/routine.png";
 import usis from "@/public/usis.png";
 import ez from "@/public/ez.png";
 import mt from "@/public/bracu_mongol_tori.jpg";
-import dapp from "@/public/dapp.png"
+import dapp from "@/public/dapp.png";
+import benchat from "@/public/bengali-chatbot.png";
 
 export const links = [
   {
@@ -63,6 +64,14 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Bengali AI Chatbot",
+    description:
+      "A chatbot created so user can chat with it and get answer. Our model achieved 90% accuracy",
+    tags: ["Pytorch","NLP","Deep Learning","Python","Tkinter"],
+    imageUrl: benchat,
+    github_url: 'https://github.com/Exile404/Bangla-chatbot',
+  },
   {
     title: "Pharmaceutical Supply Chain",
     description:
@@ -115,7 +124,7 @@ export const projectsData = [
     title: "Rover Controller ",
     description:
       "Control System for a rover with socket programming",
-    tags: ["Python"],
+    tags: ["Python", "Socket Programming","Tkinter"],
     imageUrl: mt,
     github_url: "https://github.com/Exile404/Socket-Control",
   },
