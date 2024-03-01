@@ -161,6 +161,7 @@ export const skillsData = [
   "MySQL",
   "Git",
   "Solidity",
-  "Blockchain"
+  "Blockchain",
+  "Docker"
 
 ] as const;
