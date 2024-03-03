@@ -31,7 +31,7 @@ export default function intro() {
             }}
           >
             <Image
-              src={`/Profile.jpg`}
+              src={`/Profile.png`}
               alt="Dhrubo portrait"
               width="192"
               height="192"

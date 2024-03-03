@@ -40,8 +40,7 @@ export default function About() {
         and
         <span className="font-medium"> MongoDB</span>. I am always looking to
         learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a backend
-        developer.
+        <span className="font-medium">full-time position</span> as a Software Engineer.
       </p>
 
       <p>
