@@ -162,6 +162,7 @@ export const skillsData = [
   "Git",
   "Solidity",
   "Blockchain",
-  "Docker"
+  "Docker",
+  "Ruby on Rails"
 
 ] as const;
