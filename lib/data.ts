@@ -2,10 +2,7 @@ import React from "react";
 
 import { CiMedicalCross } from "react-icons/ci";
 import { FaRobot } from "react-icons/fa";
-// import corpcommentImg from "@/public/corpcomment.png";
-// import rmtdevImg from "@/public/rmtdev.png";
-// import wordanalyticsImg from "@/public/wordanalytics.png";
-
+import { RiCodeView } from "react-icons/ri";
 import chakri_khujo from "@/public/chakri_khujo.png";
 import bdslp from "@/public/BDSLP.png";
 import solonest from "@/public/solonest.png";
@@ -44,6 +41,14 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
+  {
+    title: "Full Stack Developer",
+    location: "TNC Global Ltd",
+    description:
+      "Worldwide business developement company",
+    icon: React.createElement(RiCodeView),
+    date: "2023 - 2024",
+  },
   {
     title: "Senior Member of Control and Sofware",
     location: "Mongol Tori",
@@ -151,7 +156,6 @@ export const skillsData = [
   "Selenium",
   "FastAPI",
   "ReactJS",
-  "React Native",
   "Django",
   "NextJS",
   "TypeScript",
