@@ -148,6 +148,7 @@ export const skillsData = [
   "Machine Learning",
   "Artificial Intelligence",
   "Flask",
+  "Go",
   "JavaScript",
   "NodeJS",
   "HTML",
