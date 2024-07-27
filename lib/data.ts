@@ -76,7 +76,7 @@ export const projectsData = [
       "A website for managing our regular tasks",
     tags: ["Go", "NextJS", "Shadcn UI", "Postgresql"],
     imageUrl: tasklist,
-    github_url: "https://task-list-frontend-app.vercel.app",
+    github_url: "https://github.com/Exile404/TaskList",
   },
   {
     title: "Bengali AI Chatbot",
