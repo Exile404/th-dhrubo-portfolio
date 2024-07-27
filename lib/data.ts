@@ -7,7 +7,7 @@ import chakri_khujo from "@/public/chakri_khujo.png";
 import bdslp from "@/public/BDSLP.png";
 import solonest from "@/public/solonest.png";
 import routine from "@/public/routine.png";
-import usis from "@/public/usis.png";
+import tasklist from "@/public/tasklist.png";
 import ez from "@/public/ez.png";
 import mt from "@/public/bracu_mongol_tori.jpg";
 import dapp from "@/public/dapp.png";
@@ -45,7 +45,7 @@ export const experiencesData = [
     title: "Full Stack Developer",
     location: "TNC Global Ltd",
     description:
-      "Worldwide business developement company",
+      "Worldwide business developement company. I have worked there to develop websites for clients",
     icon: React.createElement(RiCodeView),
     date: "2023 - 2024",
   },
@@ -69,6 +69,15 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+
+  {
+    title: "TaskList",
+    description:
+      "A website for managing our regular tasks",
+    tags: ["Go", "NextJS", "Shadcn UI", "Postgresql"],
+    imageUrl: tasklist,
+    github_url: "https://task-list-frontend-app.vercel.app",
+  },
   {
     title: "Bengali AI Chatbot",
     description:
@@ -117,14 +126,7 @@ export const projectsData = [
     imageUrl: routine,
     github_url: "https://github.com/Exile404/Routine-Maker",
   },
-  {
-    title: "Hello-USIS",
-    description:
-      "A website for the BracU student can see seat status with timing in real-time",
-    tags: ["Selenium", "Django", "CSS","Web Scraping"],
-    imageUrl: usis,
-    github_url: "https://github.com/Exile404/Hello-USIS",
-  },
+  
   {
     title: "Rover Controller ",
     description:
