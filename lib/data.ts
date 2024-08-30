@@ -1,8 +1,7 @@
 import React from "react";
 
-import { CiMedicalCross } from "react-icons/ci";
-import { FaRobot } from "react-icons/fa";
 import { RiCodeView } from "react-icons/ri";
+import { SiAlwaysdata } from "react-icons/si";
 import chakri_khujo from "@/public/chakri_khujo.png";
 import bdslp from "@/public/BDSLP.png";
 import solonest from "@/public/solonest.png";
@@ -42,28 +41,20 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Jr. Data Scientist",
+    location: "AIDocBuilder Inc.",
+    description:
+      "DocBuilder  Extractor provides a unique set of artificial intelligence engineered matrix models that include an extensive knowledge on how commercial documents are scrutinized and handled by most customary businesses.",
+    icon: React.createElement(SiAlwaysdata),
+    date: "2024 - running",
+  },
+  {
     title: "Full Stack Developer",
     location: "TNC Global Ltd",
     description:
       "Worldwide business developement company. I have worked there to develop websites for clients",
     icon: React.createElement(RiCodeView),
     date: "2023 - 2024",
-  },
-  {
-    title: "Senior Member of Control and Sofware",
-    location: "Mongol Tori",
-    description:
-      "Mongol-Tori is a next-generation mars rover that will one day work alongside human explorers on the red planet. Here I developed my own control software using Python",
-    icon: React.createElement(FaRobot),
-    date: "2020 - 2022",
-  },
-  {
-    title: "Director of Communications",
-    location: "BRAC University ResponseTeam",
-    description:
-      "BracU Response Team is dedicated to the aid of students in crisis including any but not limited to epidemics, pandemics, or in general social welfare of the BracU community.",
-    icon: React.createElement(CiMedicalCross),
-    date: "2020 - 2022",
   },
   
 ] as const;
