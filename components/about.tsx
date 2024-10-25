@@ -19,29 +19,22 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
         After graduating with a degree in{" "}
-        <span className="font-medium">Computer Science</span> from BRAC
-        University, I decided to pursue my passion for programming. In my
-        undergraduate life, I worked on{" "}
+        <span className="font-medium">Computer Science</span> from BRAC University, 
+        I pursued my passion for Data Science and AI. During my academic journey, I worked extensively with{" "}
         <span className="font-medium">Python</span>, focusing on{" "}
-        <span className="font-medium">Machine Learning</span> and{" "}
-        <span className="font-medium">AI</span>. I am familiar with{" "}
-        <span className="font-medium">
-          NextJS, React, TypeScript, C++, Django, Flask, FastAPI
-        </span>
-        . <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect, particularly in the{" "}
-        <span className="font-medium">Backend</span>. I{" "}
-        <span className="underline">love</span> the feeling of finally figuring
-        out a solution to a problem. My core stack is{" "}
-        <span className="font-medium">
-          Python, NextJS, React, Machine Learning and AI
-        </span>
-        . I am also familiar with <span className="font-medium">Prisma</span>{" "}
-        and
-        <span className="font-medium"> MongoDB</span>. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a Software Engineer.
+        <span className="font-medium">Machine Learning</span>,{" "}
+        <span className="font-medium">AI</span>, and software development. I have hands-on experience with{" "}
+        <span className="font-medium">TensorFlow, PyTorch, Keras, React, NextJS, FastAPI, Flask</span>, 
+        and more. <span className="italic">My favorite part of programming</span> is solving complex problems, 
+        particularly in <span className="font-medium">data-driven solutions</span>. I{" "}
+        <span className="underline">love</span> seeing a project come to life after refining algorithms and models. 
+        My core stack includes{" "}
+        <span className="font-medium">Python, Machine Learning, AI, React, and FastAPI</span>. 
+        I am also proficient with <span className="font-medium">PostgreSQL</span> and{" "}
+        <span className="font-medium">MongoDB</span>. I am always eager to explore new technologies and am 
+        currently working as a <span className="font-medium">full-time Data Scientist</span>.
       </p>
+
 
       <p>
         <span className="italic">When I&apos;m not coding</span>, I enjoy

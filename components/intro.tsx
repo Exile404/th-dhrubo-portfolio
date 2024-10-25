@@ -58,18 +58,16 @@ export default function intro() {
       </div>
 
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl "
-        initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }}
+      className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+      initial={{ opacity: 0, y: 100 }}
+      animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I&apos;m Dhrubo.</span> I&apos;m a{" "}
-        <span className="font-bold">Software Engineer</span> with{" "}
-        <span className="font-bold">2 years</span> of experience. I enjoy
-        building{" "}
-        <span className="italic">
-          sites, apps & play with Machine Learning and AI
-        </span>
-        . My focus is <span className="underline">Python</span>.
+      <span className="font-bold">Hello, I&apos;m Dhrubo.</span> I&apos;m a{" "}
+      <span className="font-bold">Data Scientist</span> with{" "}
+      <span className="font-bold">a passion for AI and Machine Learning</span>.
+      I enjoy creating{" "}
+      <span className="italic">data-driven solutions, innovative applications, and exploring AI possibilities</span>. 
+      My expertise includes <span className="underline">Python, TensorFlow, Keras, and software engineering</span>.
       </motion.h1>
 
       <motion.div
