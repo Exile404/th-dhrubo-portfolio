@@ -41,20 +41,12 @@ export const links = [
 export const experiencesData = [
   {
     title: "Jr. Data Scientist",
-    location: "AIDocBuilder Inc.",
-    description:
-      "DocBuilder  Extractor provides a unique set of artificial intelligence engineered matrix models that include an extensive knowledge on how commercial documents are scrutinized and handled by most customary businesses.",
+    location: "Inteliweave Ltd.",
+    description:"Inteliweave, an umbrella company of AIDocBuilder, is a Bangladesh-based company providing key support services to AIDocBuilder Inc., specializing in AI-driven document processing to optimize efficiency and accuracy.",
     icon: React.createElement(SiAlwaysdata),
     date: "2024 - running",
   },
-  {
-    title: "Full Stack Developer",
-    location: "TNC Global Ltd",
-    description:
-      "Worldwide business developement company. I have worked there to develop websites for clients",
-    icon: React.createElement(RiCodeView),
-    date: "2023 - 2024",
-  },
+  
   
 ] as const;
 
