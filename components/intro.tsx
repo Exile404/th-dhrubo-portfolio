@@ -33,11 +33,11 @@ export default function intro() {
             <Image
               src={`/Profile.png`}
               alt="Dhrubo portrait"
-              width="192"
-              height="192"
-              quality="95"
+              width="400"
+              height="400"
+              quality="100"
               priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="h-36 w-36 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
 
@@ -52,22 +52,28 @@ export default function intro() {
               duration: 0.7,
             }}
           >
-            👋
+          
           </motion.span>
         </div>
       </div>
 
       <motion.h1
-      className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+      className="mb-10 mt-4 px-4 text-sm font-sans !leading-[1.5] sm:text-4xl"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       >
-      <span className="font-bold">Hello, I&apos;m Dhrubo.</span> I&apos;m a{" "}
-      <span className="font-bold">Data Scientist</span> with{" "}
-      <span className="font-bold">a passion for AI and Machine Learning</span>.
-      I enjoy creating{" "}
-      <span className="italic">data-driven solutions, innovative applications, and exploring AI possibilities</span>. 
-      My expertise includes <span className="underline">Python, TensorFlow, Keras, and software engineering</span>.
+      <div className="text-xl">
+      <span className="font-bold">Hello, I&apos;m Dhrubo.</span> I blend{" "}
+<span className="font-bold">Data Science</span> and{" "}
+<span className="font-bold">Software Engineering</span> to craft{" "}
+<span className="italic">smart, scalable, and impactful AI solutions</span>.{" "}
+From{" "}
+<span className="underline">ML pipelines</span> to{" "}
+<span className="underline">AI-powered applications</span>, my work bridges{" "}
+<span className="italic">innovation and execution</span>.{" "}
+Published in ACM and IEEE, fluent in{" "}
+<span className="underline">Python, Scikit-learn, and Docker</span>.
+</div>
       </motion.h1>
 
       <motion.div

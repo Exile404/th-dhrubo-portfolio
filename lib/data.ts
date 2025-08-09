@@ -1,14 +1,10 @@
 import React from "react";
 import { SiAlwaysdata } from "react-icons/si";
 import chakri_khujo from "@/public/chakri_khujo.png";
-import bdslp from "@/public/BDSLP.png";
 import solonest from "@/public/solonest.png";
-import routine from "@/public/routine.png";
-import tasklist from "@/public/tasklist.png";
-import ez from "@/public/ez.png";
 import mt from "@/public/bracu_mongol_tori.jpg";
-import dapp from "@/public/dapp.png";
-import benchat from "@/public/bengali-chatbot.png";
+import studyai from "@/public/studyai.png"
+import socrates from "@/public/socrates.png"; 
 
 export const links = [
   {
@@ -38,119 +34,112 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
-  {
+{
     title: "Jr. Data Scientist",
     location: "Inteliweave Ltd.",
-    description:"Inteliweave, an umbrella company of AIDocBuilder, is a Bangladesh-based company providing key support services to AIDocBuilder Inc., specializing in AI-driven document processing to optimize efficiency and accuracy.",
+    description:
+      "Led development of an automated system for detecting logistics-related documents for partners like DHL, transitioning from rule-based methods with spaCy and regex to scalable LLaMA-based semantic classification pipelines.",
     icon: React.createElement(SiAlwaysdata),
-    date: "2024 - running",
+    date: "Jan 2025 - Jul 2025",
   },
   
-  
+  {
+    title: "Jr. Data Scientist",
+    location: "AIDocBuilder Inc.",
+    description:
+      "Built initial rule-based heuristics using spaCy and regex with OCR cleanup and preprocessing pipelines to classify logistics documents. Integrated predictions into a review interface and generated annotated corpora to seed ML migration.",
+    icon: React.createElement(SiAlwaysdata),
+    date: "Sep 2024 - Jan 2025",
+  },
 ] as const;
+
 
 export const projectsData = [
 
   {
-    title: "TaskList",
-    description:
-      "A website for managing our regular tasks",
-    tags: ["Go", "NextJS", "Shadcn UI", "Postgresql"],
-    imageUrl: tasklist,
-    github_url: "https://github.com/Exile404/TaskList",
-  },
-  {
-    title: "Bengali AI Chatbot",
-    description:
-      "A chatbot created so user can chat with it and get answer. Our model achieved 90% accuracy",
-    tags: ["Pytorch","NLP","Deep Learning","Python","Tkinter"],
-    imageUrl: benchat,
-    github_url: 'https://github.com/Exile404/Bangla-chatbot',
-  },
-  {
-    title: "Pharmaceutical Supply Chain",
-    description:
-      "A Dapp to track the medicine supply chain to avoid the mismanagement and keep the orginality",
-    tags: ["NextJS", "Solidity", "MetaMask", "Ethereum", "Blockchain"],
-    imageUrl: dapp,
-    github_url: 'https://github.com/Exile404/pharma-supply-chain-dapp',
-  },
-  {
-    title: "Chakri Khujo - Job Posting Website",
-    description:
-      "I have made this project by following MVC pattern. In this website one can find and search their job. They can apply for jobs",
-    tags: ["React", "NodeJS","ExpressJS", "MongoDB", "SCSS", "Stripe"],
-    imageUrl: chakri_khujo,
-    github_url: 'https://github.com/Exile404/Chakri_Khujo',
-  },
-  {
-    title: "Sign Language Detection BDSLP",
-    description:
-      "I have done research on this meachine learning project over 1 year. Using this model, We can transform Bengali Sign Language to word so that deaf people communicate with everyone",
-    tags: ["Python","LSTM", "MediaPipe", "Tensorflow", "Machine Learning","Image Processing"],
-    imageUrl: bdslp,
-    github_url: 'https://github.com/Exile404/Sign-Language-Detection-BDSLP',
-  },
-  {
-    title: "SoloNest",
-    description:
-      "A website for the student. It will help students find their desired super hostel",
-    tags: ["Django", "PostgreSQL", "Tailwind CSS","SSL Commerezz" ],
-    imageUrl: solonest,
-    github_url: "https://github.com/Exile404/SoloNest",
-  },
-  {
-    title: "Routine Maker",
-    description:
-      "A website for the BracU student where they can generate multiple routine by giving their course code in real-time.",
-    tags: ["Selenium", "FastAPI", "CSS","Web Scraping"],
-    imageUrl: routine,
-    github_url: "https://github.com/Exile404/Routine-Maker",
-  },
-  
-  {
-    title: "Rover Controller ",
-    description:
-      "Control System for a rover with socket programming",
-    tags: ["Python", "Socket Programming","Tkinter"],
-    imageUrl: mt,
-    github_url: "https://github.com/Exile404/Socket-Control",
-  },
-  {
-    title: "E-Ticketing",
-    description:
-      "A website to book Bus, Train and Air ticket. It was my first web project",
-    tags: ["HTML", "JavaScript", "CSS","PHP","MySQL"],
-    imageUrl: ez,
-    github_url: "https://github.com/Exile404/E-Ticketing",
-  },
+  title: "Study AI App",
+  description:
+    "A full-stack AI tutoring platform with a FastAPI and LangChain backend using Google Gemini API for LLM, YouTube transcript integration, and MongoDB-backed chat memory. Generates summaries, quizzes, resources, and performance reports through a NextJS Shadcn UI frontend.",
+  tags: ["FastAPI", "LangChain", "Google Gemini API", "MongoDB", "NextJS", "Shadcn UI"],
+  imageUrl: studyai,
+  github_url: "https://github.com/Exile404/Study-AI-App",
+},
+{
+  title: "Socrates LLM",
+  description:
+    "A custom large language model fine-tuned for contextual reasoning and document understanding, optimized for lightweight deployment and fast inference.",
+  tags: ["Python", "Machine Learning", "NLP", "LLM"],
+  imageUrl: socrates,
+  github_url: "https://github.com/Exile404/Socrates-LLM",
+},
+{
+  title: "Chakri Khujo - Job Posting Website",
+  description:
+    "A full-stack job board for students to post and search internships, featuring authentication, resume uploads, and advanced filtering.",
+  tags: ["React", "Tailwind CSS", "NodeJS", "MongoDB"],
+  imageUrl: chakri_khujo,
+  github_url: "https://github.com/Exile404/Chakri_Khujo",
+},
+{
+  title: "SoloNest - Hostel Management System",
+  description:
+    "An off-campus housing management platform with room allocation, tenant check-in/out workflows, and role-based access control.",
+  tags: ["Django", "PostgreSQL", "Tailwind CSS"],
+  imageUrl: solonest,
+  github_url: "https://github.com/Exile404/SoloNest",
+},
+{
+  title: "Mongol Tori Rover Controller",
+  description:
+    "A real-time teleoperation and telemetry dashboard for a rover, streaming control commands and sensor data over Python sockets with a custom GUI.",
+  tags: ["Python", "Socket Programming", "Tkinter"],
+  imageUrl: mt,
+  github_url: "https://github.com/Exile404/Socket-Control",
+},
+
 ] as const;
 
 export const skillsData = [
   "Python",
+  "Go",
+  "C++",
+  "C#",
+  "JavaScript",
+  "TypeScript",
   "Machine Learning",
   "Artificial Intelligence",
-  "Flask",
-  "Go",
-  "JavaScript",
-  "NodeJS",
-  "HTML",
-  "CSS",
-  "Tailwind CSS",
-  "Selenium",
-  "FastAPI",
-  "ReactJS",
-  "Django",
-  "NextJS",
-  "TypeScript",
-  "Prisma",
-  "MongoDB",
-  "PostgreSQL",
-  "MySQL",
-  "Git",
-  "Solidity",
-  "Blockchain",
+  "NLP",
+  "Deep Learning",
+  "PyTorch",
+  "TensorFlow",
+  "Keras",
+  "Scikit-learn",
+  "SpaCy",
+  "Hugging Face Transformers",
+  "LSTM",
+  "OpenCV",
+  "YOLOv5",
+  "Pandas",
+  "NumPy",
   "Docker",
-  "Ruby on Rails"
-
+  "Git",
+  "CI/CD",
+  "Kubernetes",
+  "Elasticsearch",
+  "Kibana",
+  "Neo4j",
+  "PostgreSQL",
+  "MongoDB",
+  "FastAPI",
+  "Django",
+  "Flask",
+  "Node.js",
+  "REST API",
+  "GraphQL",
+  "WebSockets",
+  "React",
+  "Next.js",
+  "Tailwind CSS",
+  "HTML",
+  "CSS"
 ] as const;

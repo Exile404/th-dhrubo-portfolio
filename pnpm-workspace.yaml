@@ -1,0 +1,4 @@
+ignoredBuiltDependencies:
+  - core-js
+  - react-vertical-timeline-component
+  - sharp

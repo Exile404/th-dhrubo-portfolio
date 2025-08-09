@@ -18,23 +18,36 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Computer Science</span> from BRAC University, 
-        I pursued my passion for Data Science and AI. During my academic journey, I worked extensively with{" "}
-        <span className="font-medium">Python</span>, focusing on{" "}
-        <span className="font-medium">Machine Learning</span>,{" "}
-        <span className="font-medium">AI</span>, and software development. I have hands-on experience with{" "}
-        <span className="font-medium">TensorFlow, PyTorch, Keras, React, NextJS, FastAPI, Flask</span>, 
-        and more. <span className="italic">My favorite part of programming</span> is solving complex problems, 
-        particularly in <span className="font-medium">data-driven solutions</span>. I{" "}
-        <span className="underline">love</span> seeing a project come to life after refining algorithms and models. 
-        My core stack includes{" "}
-        <span className="font-medium">Python, Machine Learning, AI, React, and FastAPI</span>. 
-        I am also proficient with <span className="font-medium">PostgreSQL</span> and{" "}
-        <span className="font-medium">MongoDB</span>. I am always eager to explore new technologies and am 
-        currently working as a <span className="font-medium">full-time Data Scientist</span>.
+        I am a <span className="font-medium">Software Engineer</span> and{" "}
+        <span className="font-medium">Data Scientist</span> specializing in{" "}
+        <span className="font-medium">artificial intelligence</span>,{" "}
+        <span className="font-medium">machine learning</span>, and{" "}
+        <span className="font-medium">scalable software solutions</span>. I have
+        developed{" "}
+        <span className="font-medium">
+          AI-powered document classification systems
+        </span>{" "}
+        for <span className="font-medium">DHL</span>, achieving over 90%
+        accuracy by moving from{" "}
+        <span className="font-medium">rule-based heuristics</span> to{" "}
+        <span className="font-medium">LLaMA-based semantic pipelines</span>, and
+        designed <span className="font-medium">Elasticsearch analytics</span>{" "}
+        for data-driven quality control. At{" "}
+        <span className="font-medium">Inteliweave</span> and{" "}
+        <span className="font-medium">AIDocbuilder Inc.</span>, I built{" "}
+        <span className="font-medium">full-stack applications</span> like{" "}
+        <span className="font-medium">Study AI App</span> and{" "}
+        <span className="font-medium">Socrates LLM</span> using{" "}
+        <span className="font-medium">FastAPI</span>,{" "}
+        <span className="font-medium">LangChain</span>,{" "}
+        <span className="font-medium">React</span>, and{" "}
+        <span className="font-medium">MongoDB</span>. My research in{" "}
+        <span className="font-medium">sign language recognition</span>,{" "}
+        <span className="font-medium">NLP</span>, and{" "}
+        <span className="font-medium">healthcare analytics</span> has been
+        published in <span className="font-medium">ACM</span> and{" "}
+        <span className="font-medium">IEEE</span>.
       </p>
-
 
       <p>
         <span className="italic">When I&apos;m not coding</span>, I enjoy
