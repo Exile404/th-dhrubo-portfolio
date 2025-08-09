@@ -72,7 +72,7 @@ From{" "}
 <span className="underline">AI-powered applications</span>, my work bridges{" "}
 <span className="italic">innovation and execution</span>.{" "}
 Published in ACM and IEEE, fluent in{" "}
-<span className="underline">Python, Scikit-learn, and Docker</span>.
+<span className="underline">Python, Data Science, AI, and LLM</span>.
 </div>
       </motion.h1>
 
