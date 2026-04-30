@@ -1,0 +1,186 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.145 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0 0);
+  --primary: oklch(0.205 0 0);
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.97 0 0);
+  --secondary-foreground: oklch(0.205 0 0);
+  --muted: oklch(0.97 0 0);
+  --muted-foreground: oklch(0.556 0 0);
+  --accent: oklch(0.97 0 0);
+  --accent-foreground: oklch(0.205 0 0);
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.985 0 0);
+  --border: oklch(0.922 0 0);
+  --input: oklch(0.922 0 0);
+  --ring: oklch(0.708 0 0);
+  --radius: 0.625rem;
+}
+
+.dark {
+  --background: oklch(0.08 0.025 270);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.12 0.025 270);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.1 0.025 270);
+  --popover-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.985 0 0);
+  --primary-foreground: oklch(0.205 0 0);
+  --secondary: oklch(0.2 0.02 270);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.2 0.02 270);
+  --muted-foreground: oklch(0.65 0.015 270);
+  --accent: oklch(0.22 0.025 270);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.396 0.141 25.723);
+  --destructive-foreground: oklch(0.985 0 0);
+  --border: oklch(0.25 0.02 270);
+  --input: oklch(0.25 0.02 270);
+  --ring: oklch(0.5 0.02 270);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+
+  --font-syne: var(--font-syne);
+  --font-dm: var(--font-dm);
+
+  --animate-blink: blink 1s step-end infinite;
+
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    color: var(--color-foreground);
+    -webkit-font-smoothing: antialiased;
+    background:
+      radial-gradient(ellipse 80% 50% at 50% -10%, oklch(0.18 0.05 270 / 0.4), transparent),
+      linear-gradient(180deg, oklch(0.06 0.025 270) 0%, oklch(0.1 0.025 270) 50%, oklch(0.06 0.025 270) 100%);
+    background-attachment: fixed;
+    overflow-x: hidden;
+  }
+  ::selection {
+    background: rgb(99 218 255 / 0.25);
+    color: inherit;
+  }
+}
+
+/* ---------- CUSTOM CURSOR ---------- */
+* {
+  cursor: none;
+}
+@media (hover: none) {
+  * {
+    cursor: auto;
+  }
+}
+
+/* ---------- HERO GRADIENT ORBS ---------- */
+.orb {
+  will-change: transform;
+}
+.orb-violet {
+  background: radial-gradient(circle, rgb(167 139 250) 0%, transparent 70%);
+  animation: float-1 9s ease-in-out infinite;
+}
+.orb-cyan {
+  background: radial-gradient(circle, rgb(99 218 255) 0%, transparent 70%);
+  animation: float-2 11s ease-in-out infinite;
+}
+.orb-pink {
+  background: radial-gradient(circle, rgb(244 114 182) 0%, transparent 70%);
+  animation: float-1 13s ease-in-out infinite reverse;
+}
+
+@keyframes float-1 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-15px, -25px) scale(1.05); }
+}
+@keyframes float-2 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(20px, -18px) scale(0.97); }
+}
+
+/* ---------- HERO BADGE PULSE ---------- */
+.badge-glow {
+  animation: badge-glow 3s ease-in-out infinite;
+}
+@keyframes badge-glow {
+  0%, 100% { box-shadow: 0 0 0 0 rgb(99 218 255 / 0.2); }
+  50% { box-shadow: 0 0 20px 4px rgb(99 218 255 / 0.12); }
+}
+
+/* ---------- CLICK RIPPLE ---------- */
+.click-ripple {
+  position: fixed;
+  width: 54px;
+  height: 54px;
+  border-radius: 9999px;
+  pointer-events: none;
+  z-index: 99999;
+  background: radial-gradient(
+    circle,
+    rgb(99 218 255 / 0.65) 0%,
+    rgb(167 139 250 / 0.35) 40%,
+    transparent 70%
+  );
+  animation: ripple-pop 0.6s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+@keyframes ripple-pop {
+  0%   { transform: scale(0);   opacity: 0.85; }
+  50%  {                         opacity: 0.3; }
+  100% { transform: scale(4.5); opacity: 0; }
+}
+
+/* ---------- SCROLLBAR ---------- */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: rgb(99 218 255 / 0.2);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(99 218 255 / 0.35);
+}
