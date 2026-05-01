@@ -11,7 +11,7 @@ export const PROFILE: Profile = {
     paragraph1:
       "I'm a Data Scientist and ML Engineer with hands-on experience deploying LLMs in production at enterprise scale — including document classification systems serving DHL. My work spans the full ML lifecycle: from dataset curation and model fine-tuning to building FastAPI backends with Elasticsearch analytics.",
     paragraph2:
-      "Currently pursuing my Master's at Deakin University while researching Active Inference for self-healing multi-agent LLM systems under Professor Rajesh Vasa at A2I2. Published in Nature Scientific Reports for Bangla sign language recognition.",
+      "Currently pursuing my Master's at Deakin University, with research interests in Active Inference, multi-agent LLM systems, and reliable LLM operations. Published in Nature Scientific Reports for Bangla sign language recognition.",
   },
   contact: {
     phone: "+610422138819",

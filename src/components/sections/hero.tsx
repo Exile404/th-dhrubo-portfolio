@@ -97,7 +97,7 @@ export function Hero() {
         </div>
 
         <p className="mx-auto mb-11 max-w-xl font-dm text-base leading-relaxed text-foreground/45 sm:text-lg">
-          {PROFILE.tagline}. Currently pursuing M.Sc. Data Science at Deakin University with research at A2I2 under Prof. Rajesh Vasa.
+          {PROFILE.tagline}. Currently pursuing M.Sc. Data Science at Deakin University with focus on LLM operations and reliable AI systems.
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-3">
