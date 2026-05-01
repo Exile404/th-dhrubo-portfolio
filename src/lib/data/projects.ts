@@ -20,7 +20,7 @@ export const PROJECTS: Project[] = [
     ],
     description:
       "Full-stack LLM operations platform with four production tools (Profiler, Evaluator, Drift Monitor, Cost Analyzer) powered by a custom fine-tuned Llama 3.1 8B — no hosted APIs. Achieved 96/100 LLM-as-judge quality after LoRA fine-tuning on 10K synthetic profiles across 14 domains. FastAPI + LangChain backend with semantic drift detection and hallucination flagging; Next.js 15 dashboard with multi-temperature comparison and cross-provider cost projections across 11 models.",
-    github: "https://github.com/Exile404",
+    github: "https://github.com/Exile404/Datascope-AI",
     gradient: { from: "#06b6d4", to: "#6366f1" },
   },
   {
@@ -39,7 +39,7 @@ export const PROJECTS: Project[] = [
     ],
     description:
       "Fine-tuned Llama 3.1 8B with Unsloth + LoRA on a 10,547-example emotion-tagged TOON dataset (9 emotion classes, final loss 0.024). Hybrid voice/text emotion pipeline fuses emotion2vec+ with DistilRoBERTa via reliability-weighted late fusion with emotional momentum. XTTS v2 fine-tuned on 16 minutes of curated samples for character-specific speech preserving emotional prosody. ChromaDB + Whisper enable long-term semantic memory and real-time multimodal interaction.",
-    github: "https://github.com/Exile404",
+    github: "https://github.com/Exile404/Virtual_GF_LLM",
     gradient: { from: "#f43f5e", to: "#a855f7" },
   },
   {
@@ -48,7 +48,7 @@ export const PROJECTS: Project[] = [
     tech: ["FastAPI", "LangChain", "Next.js", "shadcn/ui", "MongoDB", "Gemini API"],
     description:
       "Converts YouTube lectures into structured timestamped notes with key concepts, definitions, and formulas. Recommends credible external resources aligned to each extracted concept. Enables transcript-grounded chat and adaptive quizzes with explanations to assess understanding and guide revision.",
-    github: "https://github.com/Exile404",
+    github: "https://github.com/Exile404/Study-AI-App",
     gradient: { from: "#f59e0b", to: "#ea580c" },
   },
   {
@@ -57,7 +57,7 @@ export const PROJECTS: Project[] = [
     tech: ["FastAPI", "Python", "Gemini API", "scikit-learn", "Next.js", "TypeScript"],
     description:
       "Open-source Socratic dialogue web app with FastAPI backend and Next.js frontend, integrating Gemini for conversational reasoning. Implemented NLP preprocessing (tokenization, lemmatization) and a scikit-learn decision tree to categorize user inputs. Designed for swappable LLM providers and editable training data; deployed on Vercel.",
-    github: "https://github.com/Exile404",
+    github: "https://github.com/Exile404/Socrates-LLM",
     gradient: { from: "#10b981", to: "#14b8a6" },
   },
   {
@@ -66,7 +66,7 @@ export const PROJECTS: Project[] = [
     tech: ["MediaPipe", "Transformer", "TensorFlow", "Keras", "OpenCV", "NumPy"],
     description:
       "TensorFlow/Keras Transformer for Bangla Sign recognition using MediaPipe Holistic landmarks as inputs, processing video clips into framewise pose and hand features with positional embeddings and encoder layers. Reproducible Jupyter pipeline with training, evaluation, and per-class precision–recall outputs. Published in Nature Scientific Reports.",
-    github: "https://github.com/Exile404",
+    github: "https://github.com/Exile404/Bengali_Sign_Language_Transformer_Model",
     gradient: { from: "#8b5cf6", to: "#6366f1" },
   },
 ];
